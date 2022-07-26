@@ -19,6 +19,10 @@ Vite est capable de gérer les différents langages de programmation (Ruby, Java
 ### Premiers pas
 Pour lancer le serveur en local:
 ```
+rails db:create
+rails db:migrate
+bundle install
+bundle exec vite install
 foreman start -f Procfile.dev
 ```
 Ici, on va voir un exemple de fonctionnement de vite_rails.
