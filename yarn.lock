@@ -409,6 +409,14 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+vite-plugin-full-reload@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.3.tgz#67997c0243b783c3b7e97159543acdf5c0224bc0"
+  integrity sha512-owIZz/tGXFyUzIDzbu4KBpxrpd08BO+tuWqZABCug5C2laNTwOS4mcDMsMKnXT7B7WR8oRd+BI6a2kVDtsan3w==
+  dependencies:
+    picocolors "^1.0.0"
+    picomatch "^2.3.1"
+
 vite-plugin-ruby@^3.1.0:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-ruby/-/vite-plugin-ruby-3.1.2.tgz#513297e64e3c9a2e2eace6c39856870f5aef0e90"
