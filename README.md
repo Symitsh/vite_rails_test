@@ -1,5 +1,5 @@
 # README
-
+### gem "vite_rails"
 vite_rails est une gem qui permet d'avoir un "rechargement à chaud" de la page après une modification d'un fichier.
 Fini le temps de faire un refresh manuel (F5), vite_rails vous permet de le faire automatiquement.
 Vite est capable de gérer les différents langages de programmation (Ruby, Javascript, Python, PHP, etc.)
@@ -14,12 +14,13 @@ Ici, le plugin est: [vite-plugin-full-reload]
 Essayez de modifier le fichier app/views/home/index.html et vous verrez le résultat.
 
 Prérequis:
-
-$> ruby -v
+```
+$ ruby -v
 ruby 3.1.0p0
-$> bundle -v
+$ bundle -v
 Bundler version 2.3.18
-$> foreman -v
+$ foreman -v
 0.87.2
-$> npm -v
+$ npm -v
 8.11.0
+```
