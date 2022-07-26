@@ -30,3 +30,8 @@ L'utilisation d'un plugin de vite_rails est simple.
 Ici, le plugin est: [vite-plugin-full-reload]
 
 Essayez de modifier le fichier app/views/home/index.html et vous verrez le résultat.
+
+Pour plus d'infirmation sur vite_rails:
+```
+bundle info vite_rails
+```
